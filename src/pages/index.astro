@@ -5,16 +5,15 @@ import Layout from "@layouts/Layout.astro";
 import Grid2 from "@components/grid2.astro";
 import Bylines from "@components/bylines.astro";
 import Videogrid from "@components/videogrid.astro";
+import Sectionhead from "@components/sectionhead.astro"
 ---
 
 <Layout title="Brian White">
   <Container>
     <Hero/>
     <Grid2/>
+   
     <section id="social" class="">
-    
-
-    
       <div class="grid grid-cols-1 xl:grid-cols-2 gap-14 px-4 py-4 place-items-center">
           
           <div class="w-500  rounded-xl">
@@ -36,8 +35,7 @@ import Videogrid from "@components/videogrid.astro";
               <a href="https://www.instagram.com/hartman_glass_tucson/">
                   <img class="h-1/2" src="/src/assets/hartman-social4.png" alt="">
               </a>
-          </div>
-          
+          </div>  
       </div>
       
       <div class="grid grid-cols-1 xl:grid-cols-2 gap-12 px-4 py-4  ">
@@ -48,8 +46,7 @@ import Videogrid from "@components/videogrid.astro";
               <iframe width="560" height="315" src="https://www.youtube.com/embed/SdT70VZsXdo?si=zRQj38fWHhZ-O-jS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
       </div>
-      
-  </section>
+    </section>
   
     <Bylines/>
   </Container>
