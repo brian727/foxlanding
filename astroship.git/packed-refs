@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+45fae9cb8df060ea6ebfb95348aebb7c7ffc5f90 refs/heads/briansDigital
+3d0f0fd628edef175a8c6ec9a1fd526a0ac90c39 refs/heads/main
+5b455cc2878077c998026a076385d6f61bb884f7 refs/tags/v1.0.0
+429f39b5e3cdfc1b3d717bd5c025681c7df9fc05 refs/tags/v1.1.0
+6667682bf16f70617ab507a08564cc6ba7d8e808 refs/tags/v2.0.0
+e41288994c022aa5e0b7068659aa9165c0772475 refs/tags/v2.1.0
+3c0e388da0eede62c2f3b9eda63040304cf1ec45 refs/tags/v2.2.0
