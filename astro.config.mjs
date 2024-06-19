@@ -7,7 +7,7 @@ import icon from "astro-icon";
 // https://astro.build/config
 export default defineConfig({
   site: "https://fox.brians.digital",
-  base: "/foxlanding",
+  base: "/",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
   buildOptions: {
     out: "dist/",
