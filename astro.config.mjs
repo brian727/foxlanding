@@ -8,4 +8,8 @@ import icon from "astro-icon";
 export default defineConfig({
   site: "https://astroship.web3templates.com",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
+  buildOptions: {
+    out: "dist/",
+    dist: "dist/",
+  },
 });
